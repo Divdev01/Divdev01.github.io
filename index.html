@@ -1,7 +1,465 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+<!--
+	Prologue by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
+	<head>
+		<title>Portfolio- Divya</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<div id="header">
+
+				<div class="top">
+
+					<!-- Logo -->
+						<div id="logo">
+							<div class="image avatar48"><img src="images/Divya.jpg" alt=""  /></div>
+							<!-- <div><h1 id="title">Divya </h1></div>
+							<div><h1 id="title">Muthu Krishnan</h1></div> -->
+							<div><h1 id="title" style="font-size:18px;">Divya Muthu Krishnan</h1></div>
+					
+							<p>Machine Learning Engineer</p>
+						</div>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a href="#top" id="top-link"><span class="icon solid fa-home">Intro</span></a></li>
+								<li><a href="#portfolio" id="portfolio-link"><span >Portfolio</span></a></li>
+								<li><a href="#about" id="about-link"><span>Certifications</span></a></li>
+								<li><a href="#contact" id="contact-link"><span >Skills</span></a></li>
+								<li><a href="#techstack" id="contact-link"><span >Tech stack</span></a></li>
+							</ul>
+						</nav>
+
+				</div>
+
+				<div class="bottom">
+
+					<!-- Social Icons -->
+						<ul class="icons">
+							<!-- <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li> -->
+							<li><a href="https://github.com/Divdev01" class="icon brands fa-github"><span class="label">Github</span></a></li>
+							<!-- <li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li> -->
+							<li><a href="mailto: divyajohny01@gmail.com " class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+							<li><a href="https://www.linkedin.com/in/divya-muthu-krishnan-36b600229/" class="fa fa-linkedin" aria-hidden="true"><span class="label"> in </span></a></li>
+							
+							
+						</ul>
+
+				</div>
+
+			</div>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- Intro -->
+					<section id="top" class="one dark cover">
+						<div class="container">
+
+							<header>
+								<h2 class="alt">Welcome to my Portfolio </h2>
+								<p align="justify">
+									I am a Machine learning Engineer having experience working in end-end real world projects in health care and financial sectors.
+									With 2 years of experience in machine learning, I bring a blend of technical expertise and practical problem-solving skills to the table. 
+									I have worked on challenging projects that require a deep understanding of machine learning and deep learning algorithms, data preprocessing, feature engineering and model development. I have consistently delivered solutions that meets client’s expectation. 
+									</p>
+									<p align="justify"> I have worked on Segmentation, Optical flow and Classification tasks in Computer vision domain. Additionally, I have experience in Natural language Processing, where I have contributed to projects involving Sentiment analysis, Text-to-speech(TTS), Speech-to-text(STT), Chatbot development and Retrieval Augmented Generation.
+									</p>
+
+									
+								</p>
+							</header>
+
+							<footer>
+								<a href="#portfolio" class="button scrolly">Portfolio</a>
+							</footer>
+
+						</div>
+					</section>
+
+				<!-- Portfolio -->
+					<section id="portfolio" class="two">
+						<div class="container">
+
+							<header>
+								<h2>Portfolio</h2>
+							</header>
+
+							<p>Below are few samples of my work.</p>
+
+							<div class="row">
+								
+								<div class="col-4 col-12-mobile">
+									
+									<article class="item">
+										<a href="https://omdena.com/projects/estimate-density-of-blood-cells/" class="image fit"><img src="images/blood.jpg" alt="" style="width:300px;height:200px;" /></a>
+										<header>
+											<h3>Using Image Analysis to Estimate the Density of Blood Cells</h3>
+										
+										
+											<button onclick="toggle('div_blood')">More info</button>
+
+												<div id="div_blood" style="display: none; margin-left:15px; margin-right:15px; margin-top:25px; text-align: justify;">
+													<ul style="line-height: 1.5em; margin-bottom: 15px; font-size: 14px;text-align: start;" >
+														<li>Lead the knowledge base team and reviewed around 10 research papers.</li>
+														<li>Worked on segmenting the capillary from the image to extract the skeleton of capillary.</li>
+														<li>Annotated around 100 images having capillaries using data loop tool. </li>
+														<li>Worked on estimating the velocity of blood flowing through the capillary.</li>
+
+														 
+														
+														
+													</ul>
+												</div>
+											
+										</header>
+
+
+										
+									</article>
+									<article class="item">
+										<a href="https://omdena.com/chapter-challenges/breaking-down-language-barriers-using-ai-and-nlp-to-automate-dubbing-process-for-improved-accessibility-and-inclusivity/" class="image fit"><img src="images/mic.jpg" alt="" /></a>
+										<header>
+											<h3>Using AI and NLP to Automate Dubbing Process for Improved Accessibility and Inclusivity</h3>
+											<p> 
+												<button onclick="toggle('div_dub')">More info</button>
+
+												<div id='div_dub' style="display: none; margin-left:15px; margin-right:15px; margin-top:25px; text-align: justify;">
+													<ul style="line-height: 1.5em; margin-bottom: 15px; font-size: 14px;text-align: start;" >
+														<li>Worked in converting the text to voice task. </li>
+														<li>Worked with models like tacotron, fast speech, speech t5 and Meta mms to convert the text to voice in 3 languages (English, French and Spanish)</li>
+														<li>Used micorsoft edge tts api to convert the text to voice.</li> 
+													</ul>
+												</div>
+											</p>
+										</header>
+									</article>
+
+									<article class="item">
+										<a href="https://www.kaggle.com/code/divyamuthukrishnan/eda-on-housing-supply-construction-and-population" class="image fit"><img src="images/house.jpg" alt="" /></a>
+										<header>
+											<h3>Analysis on housing supply and demand, construction and population in Canada</h3>
+											
+											<p>
+												
+												
+												<button onclick="toggle('div5')">More info</button>
+
+												<div id="div5" style="display: none; margin-left:15px; margin-right:15px;  margin-top:25px; text-align: justify;">
+													<ul style = "line-height: 1.5em; margin-bottom: 15px; font-size: 14px;text-align: start;">
+													<li</li>
+													<li>Collected data on construction, population and housing supply in Canada from year 1990 to 2015 from statistics canada</li>
+													<li>Interative plots were created using Plotly to show the housing demand and supply </li>
+													
+												</ul>
+												</div>
+											</p>
+
+										</header>
+										
+									</article>
+								</div>
+								<div class="col-4 col-12-mobile">
+									<article class="item">
+										<a href="https://omdena.com/projects/developing-an-engine-for-heart-failure-detection/" class="image fit"><img src="images/heart.jpg" alt="" /></a>
+										<header>
+											<h3> Developing an Engine for Heart Failure Detection using Deep Learning</h3>
+											<p>
+												<button onclick="toggle('div_heart')">More info</button>
+
+												<div id="div_heart" style="display: none; margin-left:15px; margin-right:15px; margin-top:25px; text-align: justify;">
+													<ul style="line-height: 1.5em; margin-bottom: 15px; font-size: 14px;text-align: start;" >
+														<li>Reviewed research papers and incorporated few methodologies from relevant papers.</li>
+														<li>Worked on preprocessing to remove the noise in the signal and performed normalization</li>
+														<li>RandomOverSampler was used to combat class imbalance</li>
+														<li>Designed a neural network with 1D CNN blocks based on the research papers</li>
+														<li>Deployed the selected model in a streamlit app  and delivered to the client</li>
+												
+													</ul>
+
+
+												</div>
+											</p>
+										</header>
+										
+									</article>
+									<article class="item">
+										<a href="https://github.com/OmdenaAI/marseille-chapter-stop-online-violence-nlp/tree/main/reports" class="image fit"><img src="images/hate_speech_2.jpg" alt="" /></a>
+										<header>
+											<h3>A text classifier to identify violence in online chats with children</h3>
+										
+											<p >
+												<button onclick="toggle('div_online_violence')">More info</button>
+
+												<div id="div_online_violence" style="display: none; margin-left:15px; margin-right:15px;  margin-top:25px; text-align: justify;">
+													<ul style="line-height: 1.5em; margin-bottom: 15px; font-size: 14px;text-align: start;" >
+														<li>Preprocessing: removed urls, hashtags and extra space.</li>
+														<li>Model : Utilized CamemBERT from the Transformers library and fine-tuned it to our dataset</li>
+														<li>Performance: Achieved 86% accuracy, 84% precision, and 84% recall</li> 
+														<li>Deployment: Deployed a proof of concept (POC) in a Streamlit app.</li>
+													</ul>
+												</div>
+											</p>
+										</header>
+									</article>
+
+									<article class="item">
+										<a href="https://www.kaggle.com/code/divyamuthukrishnan/study-on-type-of-dwellings-population-canada" class="image fit"><img src="images/house3.jpg" alt="" /></a>
+										<header>
+											<h3>Analysis on types of dwellings, population  and consumer price index in Canada</h3>
+											<p>
+												<button onclick="toggle('div_house_pop')">More info</button>
+												<div id="div_house_pop" style="display: none; margin-left:15px; margin-right:15px;  margin-top:25px; text-align: justify;">
+													<ul style="line-height: 1.5em; margin-bottom: 15px; font-size: 14px;text-align: start;" >
+														<li>Housing data, population and immigration data were collected from statistics canada website.</li>
+														
+														<li>Interative plots are created using Plotly to show province wise visualization of dwelling, population and 
+															consumer price index.</li>
+														<li>Home owners home and mortgage insurance is the highly inflated item which is followed by tobacco products</li>
+													</ul>	
+												</div>
+											</p>
+
+										</header>
+										
+									</article>
+								</div>
+								<div class="col-4 col-12-mobile">
+									<article class="item">
+										<a href="https://omdena.com/projects/proactive-financial-planning-for-lung-cancer-patients-through-machine-learning/" class="image fit"><img src="images/lung4.jpg" alt="" /></a>
+										<header>
+											<h3>Proactive Financial Planning for Lung Cancer Patients</h3>
+											<p>
+												
+												<button onclick="toggle('div_lung')">More info</button>
+													<div id="div_lung" style="display: none; margin-left:15px; margin-right:15px;  margin-top:25px; text-align: justify;">
+														<ul style="line-height: 1.5em; margin-bottom: 15px; font-size: 14px;text-align: start;" >
+															<li>Built a predictive model to estimate the treatment cost for Lung Cancer patients and deployed a proof of concept in a Streamlit application.</li>
+															<li>Extensive cleaning was done to fix the discrepancies in certain fields and EDA was done to find insights from the data. </li>
+															<li>Features were selected based on correlation, relevance to target and user related relevance.</li>
+															<li>Outliers were removed to reduce the noise</li>
+															<li>Then target guided ordinal encoding and One hot ecoding was performed and Xboost algorithm was used to build a predictive model.</li>
+															<li>Finally, hyper parameters were tuned with bayesian optimisation using optuna library.</li>
+														</ul>
+													</div>
+											</p>
+										</header>
+										
+									</article>
+									<article class="item">
+										<a href="https://github.com/Divdev01/Facebook_tweet_analysis" class="image fit"><img src="images/facebook_meta.jpg" alt="" /></a>
+										<header>
+											<h3>Analysis on Facebook's rebranding to meta using Tweets</h3>
+											<p>
+												<button onclick="toggle('div_fb')">More info</button>
+
+												<div id="div_fb" style="display: none; margin-left:15px; margin-right:15px;  margin-top:25px; text-align: justify;">
+													<ul style="line-height: 1.5em; margin-bottom: 15px; font-size: 14px;text-align: start;">
+														<li>Preprocessing: removed punctuations, tags, @usernames,numbers, emojis, stopwords</li>
+														<li>Embeddings: Word2vec, GloVe, Doc2vec, BERT</li>
+														<li>Clustering: K-means Clustering, Agglomeratve clustering</li>
+														<li>BERT along with agglomerative clustering gave good interpreting results with no overlap among clusters</li>
+														<li>Overall people were talking more about the hiring because of the metaverse and the virtual reallity and with few negative opinions </li>
+													</ul>
+													</div>
+											</p>
+										</header>
+									</article>
+									
+								</div>
+								<!-- <div class="col-4 col-12-mobile">
+									<article class="item">
+										<a href="https://www.kaggle.com/code/divyamuthukrishnan/eda-on-housing-supply-construction-and-population" class="image fit"><img src="images/house.jpg" alt="" /></a>
+										<header>
+											<h3>Analysis on housing supply and demand, construction and population in Canada</h3>
+											
+											<p>
+												
+												
+												<button onclick="toggle('div5')">More info</button>
+
+												<div id="div5" style="display: none;">
+													<ul style = "line-height: 1.5em; margin-bottom: 15px; font-size: 14px;text-align: start;">
+													<li</li>
+													<li>Collected data on construction, population and housing supply in Canada from year 1990 to 2015 from statistics canada</li>
+													<li>Interative plots were created using Plotly to show the housing demand and supply </li>
+													
+												</ul>
+												</div>
+											</p>
+
+										</header>
+										
+									</article>
+									<article class="item">
+										<a href="https://www.kaggle.com/code/divyamuthukrishnan/study-on-type-of-dwellings-population-canada" class="image fit"><img src="images/house3.jpg" alt="" /></a>
+										<header>
+											<h3>Analysis on types of dwellings, population  and consumer price index in Canada</h3>
+											<p>
+												<ul style="line-height: 1.5em; margin-bottom: 15px; font-size: 14px;text-align: start;" >
+													<li>Housing data, population and immigration data were collected from statistics canada website.</li>
+													
+													<li>Interative plots are created using Plotly to show province wise visualization of dwelling, population and 
+														consumer price index.</li>
+													<li>Home owners home and mortgage insurance is the highly inflated item which is followed by tobacco products</li>
+												</ul>	
+											</p>
+
+										</header>
+										
+									</article>
+									
+									
+								</div> -->
+
+								
+
+							</div>
+
+						</div>
+					</section>
+
+				<!-- Certifications -->
+					<section id="about" class="three">
+						<div class="container">
+
+							<header>
+								<h2>Certifications</h2>
+							</header>
+
+							<ul>
+								<li>AZURE DATA SCIENTIST ASSOCIATE, Microsoft</li>
+								<li>ARTIFICIAL INTELLIGENCE CERTIFICATE,University of Toronto School of Continuing Studies</li>
+								<li>PRACTICAL DATA SCIENCE SPECIALIZATION CERTIFICATE, AWS & DeepLearning.AI on Coursera</li>
+								<li>DEEP LEARNING SPECIALIZATION CERTIFICATE, DeepLearning.AI on Coursera</li>
+								<li>MACHINE LEARNING CERTIFICATE, Stanford University on Coursera</li>
+								
+
+							</ul>
+
+							
+						</div>
+					</section>
+
+				<!-- Skills -->
+					<section id="contact" class="four">
+						<div class="container">
+
+							<header>
+								<h2>Skills</h2>
+							</header>
+
+							<p>
+								<ul>
+									<li> Data cleaning and preprocessing </li>
+									<li> Exploratory data analysis</li>
+									<li> Feature engineering  </li>
+									<li> Hyper parameter tuning	</li>
+									<li> Supervised learning - classification and regression </li>
+									<li> Unsupervised learning - clustering</li>
+									<li> Natural language processing</li>
+									<li> Computer vision </li>
+									<li> speech recognition and text to speech</li>
+									<li> Git version control </li>
+									<li> Cloud platform - Azure machine learning</li>
+									<li> Communication and presentation skills</li>
+								</ul>					 
+								<!-- •	Data cleaning and preprocessing 
+								•	Exploratory data analysis
+								•	Feature engineering 
+								•	Hyper parameter tuning
+								•	Supervised learning - classification and regression
+								•	Unsupervised learning - clustering
+								•	Natural language processing
+								•	Computer vision
+								•	speech recognition and text to speech
+								•	Git version control 
+								•	Cloud platform - Azure machine learning 
+								•	Communication and presentation skills	 -->
+
+						
+							</p>
+							
+
+							
+
+							<!-- <form method="post" action="#">
+								<div class="row">
+									<div class="col-6 col-12-mobile"><input type="text" name="name" placeholder="Name" /></div>
+									<div class="col-6 col-12-mobile"><input type="text" name="email" placeholder="Email" /></div>
+									<div class="col-12">
+										<textarea name="message" placeholder="Message"></textarea>
+									</div>
+									<div class="col-12">
+										<input type="submit" value="Send Message" />
+									</div>
+								</div>
+							</form> -->
+
+						</div>
+					</section>
+					<section id="techstack" class="five">
+						<div class="container">
+
+							<header>
+								<h2>Tech stack</h2>
+							</header>
+
+							<p>
+								<div class="row">
+									<div class="column" >
+										<ul>
+											<li> Tensorflow </li>
+											<li> Keras</li>
+											<li> PyTorch </li>
+											<li> Python - Pandas, NumPy, Scikit-learn	</li>
+											<li> Python - Plotly, Matplotlib, Seaborn </li>
+										</ul>
+									</div>
+									<div class="column" >									  
+										<ul>
+											<li> SQL  </li>
+											<li> NLTK, Spacy, Gensim, Transformers</li>
+											<li> OpenCV, Skimage, Scipy </li>
+											<li> Openai-whisper, coqui tts	</li>
+											<li> Langchain, Pinecone </li>
+										</ul>
+									  
+									</div>
+							</p>
+							
+					</section>
+			</div>
+
+		<!-- Footer -->
+			<div id="footer">
+
+				<!-- Copyright -->
+					<ul class="copyright">
+						<!-- <li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li> -->
+					</ul>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script src="assets/js/toggle.js"></script>
+
+	</body>
 </html>
