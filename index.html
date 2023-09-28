@@ -144,8 +144,26 @@
 											</p>
 										</header>
 									</article>
-
 									<article class="item">
+										<a href="https://github.com/Divdev01/Facebook_tweet_analysis" class="image fit"><img src="images/facebook_meta.jpg" alt="" /></a>
+										<header>
+											<h3>Analysis on Facebook's rebranding to meta using Tweets</h3>
+											<p>
+												<button onclick="toggle('div_fb')">More info</button>
+
+												<div id="div_fb" style="display: none; margin-left:15px; margin-right:15px;  margin-top:25px; text-align: justify;">
+													<ul style="line-height: 1.5em; margin-bottom: 15px; font-size: 14px;text-align: start;">
+														<li>Preprocessing: removed punctuations, tags, @usernames,numbers, emojis, stopwords</li>
+														<li>Embeddings: Word2vec, GloVe, Doc2vec, BERT</li>
+														<li>Clustering: K-means Clustering, Agglomeratve clustering</li>
+														<li>BERT along with agglomerative clustering gave good interpreting results with no overlap among clusters</li>
+														<li>Overall people were talking more about the hiring because of the metaverse and the virtual reallity and with few negative opinions </li>
+													</ul>
+													</div>
+											</p>
+										</header>
+									</article>
+									<!-- <article class="item">
 										<a href="https://www.kaggle.com/code/divyamuthukrishnan/eda-on-housing-supply-construction-and-population" class="image fit"><img src="images/house.jpg" alt="" /></a>
 										<header>
 											<h3>Analysis on housing supply and demand, construction and population in Canada</h3>
@@ -167,7 +185,7 @@
 
 										</header>
 										
-									</article>
+									</article> -->
 								</div>
 								<div class="col-4 col-12-mobile">
 									<article class="item">
@@ -257,23 +275,45 @@
 										
 									</article>
 									<article class="item">
-										<a href="https://github.com/Divdev01/Facebook_tweet_analysis" class="image fit"><img src="images/facebook_meta.jpg" alt="" /></a>
+										<a href="https://github.com/Divdev01/Chatbot-Smart-guide-for-Canadian-immigration-applicants/tree/main" class="image fit"><img src="images/canada.jpg" alt="" /></a>
 										<header>
-											<h3>Analysis on Facebook's rebranding to meta using Tweets</h3>
+											<h3>Chatbot-Smart guide for Canadian immigration applicants</h3>
 											<p>
-												<button onclick="toggle('div_fb')">More info</button>
+												<button onclick="toggle('div_chat')">More info</button>
 
-												<div id="div_fb" style="display: none; margin-left:15px; margin-right:15px;  margin-top:25px; text-align: justify;">
+												<div id="div_chat" style="display: none; margin-left:15px; margin-right:15px;  margin-top:25px; text-align: justify;">
 													<ul style="line-height: 1.5em; margin-bottom: 15px; font-size: 14px;text-align: start;">
-														<li>Preprocessing: removed punctuations, tags, @usernames,numbers, emojis, stopwords</li>
-														<li>Embeddings: Word2vec, GloVe, Doc2vec, BERT</li>
-														<li>Clustering: K-means Clustering, Agglomeratve clustering</li>
-														<li>BERT along with agglomerative clustering gave good interpreting results with no overlap among clusters</li>
-														<li>Overall people were talking more about the hiring because of the metaverse and the virtual reallity and with few negative opinions </li>
+														<li> Created chatbot using large language models (falcon, openai) </li>
+														<li> Used Retrieval Augmented Generation (RAG) to get accurate and up-to-date information </li>
+														<li> Utilized langchain's memory component to incorporate memory to the chatbot </li>
+														<li> Deployed the application locally with chainlit</li>
 													</ul>
 													</div>
 											</p>
 										</header>
+									</article>
+									<article class="item">
+										<a href="https://www.kaggle.com/code/divyamuthukrishnan/eda-on-housing-supply-construction-and-population" class="image fit"><img src="images/house.jpg" alt="" /></a>
+										<header>
+											<h3>Analysis on housing supply and demand, construction and population in Canada</h3>
+											
+											<p>
+												
+												
+												<button onclick="toggle('div5')">More info</button>
+
+												<div id="div5" style="display: none; margin-left:15px; margin-right:15px;  margin-top:25px; text-align: justify;">
+													<ul style = "line-height: 1.5em; margin-bottom: 15px; font-size: 14px;text-align: start;">
+													<li</li>
+													<li>Collected data on construction, population and housing supply in Canada from year 1990 to 2015 from statistics canada</li>
+													<li>Interative plots were created using Plotly to show the housing demand and supply </li>
+													
+												</ul>
+												</div>
+											</p>
+
+										</header>
+										
 									</article>
 									
 								</div>
